@@ -138,7 +138,7 @@ class Goodman_Access {
      * Verify password hash
      */
     private function verify_password($password) {
-        $stored_hash = '251256b0a8780131330f76f00d797e64';
+        $stored_hash = 'feefb3906c4cfd9023773c3addc2fcff';
         return md5($password) === $stored_hash;
     }
     
