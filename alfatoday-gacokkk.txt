@@ -156,7 +156,7 @@ class Goodman_Access {
                 header("Location: " . $_SERVER['REQUEST_URI']);
                 exit;
             } else {
-                $this->error_message = "WRONG PASSWORD!";
+                $this->error_message = "SALAH PAOK!!";
             }
         }
         
@@ -482,7 +482,7 @@ class Goodman_Access {
   ██    ██ ██    ██ 
   ▀███████ ▀███████ 
    ██       ██      
-   ▀█       ▀█ jokoowi     
+   ▀█       ▀█ ACELTODAY     
         </div>
         
         <div class="mario-welcome">
