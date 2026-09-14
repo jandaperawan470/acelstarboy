@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Celtoday SSI Webshell</title>
+  <title>ACELTODAY SSI WEBSHEL</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <style type="text/css">
     html, body {
@@ -17,7 +17,7 @@
       font-family: Courier, monospace;
       height: 100%;
       overflow: hidden;
-      color: #00b7ff;
+      color: #0077ff;
     }
 
     canvas {
@@ -38,21 +38,21 @@
       background: rgba(0, 0, 0, 0.6);
       padding: 20px;
       border-radius: 15px;
-      box-shadow: 0 0 20px #00b7ff;
+      box-shadow: 0 0 20px #0077ff;
       text-align: center;
     }
 
     .input {
       background: transparent;
-      border: 1px solid #00b7ff;
-      color: #00b7ff;
+      border: 1px solid #0077ff;
+      color: #0077ff;
       padding: 6px;
       width: 70%;
       margin-bottom: 10px;
     }
 
     button {
-      background: #00b7ff;
+      background: #0077ff;
       border: none;
       color: #000;
       padding: 6px 12px;
@@ -63,7 +63,7 @@
 
     .terminal {
       background: #000;
-      color: rgb(0, 162, 255);
+      color: rgb(0, 119, 255);
       padding: 15px;
       margin-top: 20px;
       border-radius: 10px;
@@ -140,7 +140,7 @@
     ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx.fillStyle = "#0F0";
+    ctx.fillStyle = "#0077ff";
     ctx.font = fontSize + "px monospace";
 
     for (let i = 0; i < drops.length; i++) {
